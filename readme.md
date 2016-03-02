@@ -12,3 +12,12 @@ A Secretarial System
 ### NOTES:
 
 System is still incomplete
+
+### Missing Features:
+
+-CRUD Projects
+-CRUD Members
+-CRUD Events
+-Attendance Module
+-Generate Report
+-Search Module
