@@ -34,6 +34,16 @@
             <li class="{{ Active::pattern('admin/dashboard') }}">
                 <a href="{!! route('admin.dashboard') !!}"><span>{{ trans('menus.backend.sidebar.dashboard') }}</span></a>
             </li>
+            <li class="{{ Active::pattern('admin/members') }}">
+                <a href="/admin/members"><span>Member Management</span></a>
+            </li>
+            <li class="{{ Active::pattern('admin/projects') }}">
+                <a href="/admin/projects"><span>Project Management</span></a>
+            </li>
+            <li class="{{ Active::pattern('admin/events') }}">
+                <a href="/admin/events"><span>Event Management</span></a>
+            </li>
+
 
             @permission('view-access-management')
                 <li class="{{ Active::pattern('admin/access/*') }}">

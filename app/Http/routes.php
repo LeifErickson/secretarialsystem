@@ -18,6 +18,12 @@ Route::group(['middleware' => 'web'], function() {
     });
 });
 
+
+Route::resource('members','MemberController');
+
+Route::get('/admin/members',function(){
+    return view('backend.members');
+});
 /**
  * Backend Routes
  * Namespaces indicate folder structure
